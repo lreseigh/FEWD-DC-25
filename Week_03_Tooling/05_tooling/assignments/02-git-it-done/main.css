@@ -1,1 +1,4 @@
-/* There should be some awesome styles in here, why don't you add them in? */
+h1 {
+	color: blue;
+	font-size: 24px;
+}
