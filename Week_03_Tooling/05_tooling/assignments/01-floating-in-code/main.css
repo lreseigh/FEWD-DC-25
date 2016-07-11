@@ -1,35 +1,107 @@
 /* Float demo */
-.container-1, .container-3 {
+.container-1 {
   height: 200px;
   background-color: #666;
+  margin-bottom: 15px;
+}
+<<<<<<< HEAD
+.container-2 {
+  height: 350px;
+  margin-bottom: 15px;
+}
+.box-0 {
+=======
+
+.container-3 {
+>>>>>>> master
+  height: 200px;
+  background-color: #666;
+  width: 20%;
 }
 
 .box-1 {
-  height: 200px;
+  height: 600px;
   float: left;
-  width: 60%;
+<<<<<<< HEAD
+  width: 100%;
+}
+.box-1 {
+  height: 100%;
+  float: left;
+  width: 14%;
+  margin-right: 1%;
 }
 
 .box-2 {
+  height: 100%;
+  float: left;
+  width: 70%;
+}
+
+.box-3 {
+  height: 100%;
+  float: left;
+  width: 14%;
+  margin-left: 1%;
+}
+.box-4 {
   height: 200px;
   float: left;
-  width: 40%;
+  width: 100%;
+}
+.box-5, .box-5.5 {
+  height: 100%;
+  float: left;
+  width: 32.66%;
+
+}
+.box-5 {
+    margin-right: 1%;
+=======
+  margin: 1% 2%;
+  width: 16%;
+}
+
+.box-2 {
+  height: 600px;
+  float: left;
+  margin: 1% 5%;
+  width: 50%;
+}
+
+.box-3 {
+  height: 600px;
+  float: left;
+  margin: 1% 2%;
+  width: 46%;
+>>>>>>> master
 }
 
 .clearfix:after {
   clear: both;
-  content: " ";
+  content: "Kelsi wonders what happens";
   display: block;
 }
 
 .color-1 {
   background-color: #dbff9e;
 }
-
+.color-0 {
+  background-color: green;
+}
 .color-2 {
   background-color: blue;
 }
 
 .color-3 {
   background-color: rgba(255, 66, 66, 1);
+}
+<<<<<<< HEAD
+.color-4 {
+  background-color: yellow;
+=======
+
+.color-4 {
+  background-color: pink;
+>>>>>>> master
 }
